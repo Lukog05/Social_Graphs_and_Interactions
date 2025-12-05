@@ -1,1 +1,9 @@
 Contains the data, report and code files needed for final project
+
+Steps to run finalv2_aniList_scraper.ipynb
+i) Run the 1st, 3rd and 4th 'CODE' blocks of the notebook.
+ii) for reference, to download between top 100 and 200 the arguements are:
+anime_data = fetch_anilist_top_entries(media_limit=100, page=3, max_characters=-1, max_staff=-1)
+and from 1000 to 1100 they are:
+anime_data = fetch_anilist_top_entries(media_limit=100, page=21, max_characters=-1, max_staff=-1)
+iii) change time.sleep() to high value in graphql_request() function to avoid hitting the rate limit for api requests.
