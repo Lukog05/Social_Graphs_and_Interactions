@@ -1,6 +1,6 @@
 Contains the data, report and code files needed for final project
 
-Steps to run finalv2_aniList_scraper.ipynb
+Steps to Run Section A: finalv2_aniList_scraper:
 i) Run the 1st, 3rd and 4th 'CODE' blocks of the notebook.
 ii) for reference, to download between top 100 and 200 the arguements are:
 anime_data = fetch_anilist_top_entries(media_limit=100, page=3, max_characters=-1, max_staff=-1)
